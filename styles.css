@@ -136,6 +136,22 @@ left: 0;
     background: aquamarine;
     color:#fff
 }
+/*ICONOS*/
+#iconos{
+    padding: 0px 50px;
+    background: rgba(77,77,92,0.6);
+}
+#contenido-iconos{
+    padding: 50px 50px 0px 50px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+#contenido-iconos div{
+    flex: 1;
+    margin: 20px 0px;
+    border-right: 2px solid rgba(255, 255, 255, 0.2);
+}
 /*RESPONSIVE*/
 @media (max-width: 768px) {
     /*HEADER*/
