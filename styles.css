@@ -100,8 +100,42 @@ left: 0;
     background: #4D4D5C;
     color:aquamarine;
 }
-
-
+/*PERSONAS*/
+#personas{
+    padding: 50px 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#personas img{
+    border-radius: 100%;
+}
+#personas div{
+    padding: 30px 30px;
+}
+#personas div h4{
+    color:#4D4D5C;
+    font-size: 20px;
+    margin: 15px 0px;
+}
+#personas div p{
+    color: #4D4D5C87;
+    font-size: 18px;
+}
+.boton-saber-mas{
+    display: inline-block;
+    text-decoration: none;
+    color:aquamarine;
+    padding: 10px 30px;
+    border: 3px solid aquamarine;
+    border-radius: 30px;
+    margin-top: 15px;
+    transition: all 0.4s;
+}
+.boton-saber-mas:hover{
+    background: aquamarine;
+    color:#fff
+}
 /*RESPONSIVE*/
 @media (max-width: 768px) {
     /*HEADER*/
@@ -137,5 +171,10 @@ left: 0;
         top: 40px;
         right: 40px;
     }
+    /*PERSONAS*/
+#personas{
+    flex-direction: column;
+}
+
 }
 
