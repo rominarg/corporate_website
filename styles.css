@@ -9,7 +9,7 @@
 header{
     height: 70px;
     background: #4D4D5C;
-    color:cornsilk;
+    color:rgb(255, 255, 255);
     display:flex;
     justify-content: space-between;
     align-items: center;
@@ -18,7 +18,7 @@ header{
 
 .logo{
     text-transform: uppercase;
-    color:aquamarine;
+    color:#6cc091;
     font-weight: 100;
     margin-left: 20px;
 }
@@ -47,7 +47,7 @@ header{
 .menu a:hover,
 .mostrar-menu:hover,
 .ocultar-menu:hover{
-    color:aquamarine;
+    color:#6cc091;
 }
 
 #check{
@@ -89,7 +89,7 @@ left: 0;
 .boton-empezar{
     text-decoration: none;
     color:#4D4D5C;
-    background-color: rgba(127, 255, 212, 0.925);;
+    background-color: #6cc091;;
     padding: 10px 20px;
     align-self: baseline;
     border-radius: 20px;
@@ -98,7 +98,7 @@ left: 0;
 }
 .boton-empezar:hover{
     background: #4D4D5C;
-    color:aquamarine;
+    color:#6cc091;
 }
 /*PERSONAS*/
 #personas{
@@ -125,15 +125,15 @@ left: 0;
 .boton-saber-mas{
     display: inline-block;
     text-decoration: none;
-    color:aquamarine;
+    color:#6cc091;
     padding: 10px 30px;
-    border: 3px solid aquamarine;
+    border: 3px solid #6cc091;
     border-radius: 30px;
     margin-top: 15px;
     transition: all 0.4s;
 }
 .boton-saber-mas:hover{
-    background: aquamarine;
+    background: #6cc091;
     color:#fff;
 }
 
@@ -171,6 +171,68 @@ left: 0;
 .boton-iconos {
     text-align: center;
     padding-bottom: 50px;
+}
+
+/*FORMULARIO*/
+#contacto{
+    background: #6cc091;
+    padding: 50px 0px;
+    color:#fff;
+}
+#contacto h4{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+#contacto form{
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+.datos-form div{
+    padding: 10px;
+    flex: 1;
+}
+form label{
+    display: block;
+    margin-bottom: 10px;
+}
+form input,
+form textarea{
+    background: #6cc091;
+    border-radius: 10px;
+    border: 2px solid #ffffff;
+    padding: 10px 5px;
+    outline: 0;
+    color:#fff;
+    width: 100%;
+}
+
+form input:focus,
+form textarea:focus{
+    border-color:#6cc091;
+    box-shadow: 0 0 0 1px #6cc091;
+}
+
+form input::placeholder,
+form textarea::placeholder{
+    color: #fff;
+}
+.mensaje{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.boton-formulario .boton-saber-mas{
+    display: block;
+    border: 2px solid #ffffff;
+    color: #fff;
+    text-align: center;
+    transition: 0.4s;
+}
+
+.boton-formulario .boton-saber-mas:hover{
+    background: #255239ad;
 }
 
 /*RESPONSIVE*/
