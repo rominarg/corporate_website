@@ -185,7 +185,7 @@ left: 0;
     margin-bottom: 20px;
 }
 #contacto form{
-    max-width: 50%;
+    max-width: 60%;
     margin: 0 auto;
 }
 
@@ -285,6 +285,7 @@ form textarea::placeholder{
 /*FORMULARIO*/
 .datos-form{
 flex-direction: column;
+max-width: 100%;
 }
 }
 
