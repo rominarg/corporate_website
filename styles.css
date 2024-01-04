@@ -282,5 +282,9 @@ form textarea::placeholder{
 .contenido-iconos div{
     border: none;
 }
+/*FORMULARIO*/
+.datos-form{
+flex-direction: column;
+}
 }
 
