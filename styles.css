@@ -157,9 +157,10 @@ left: 0;
 }
 #icono-mobile{
     border: none;
+    font-size: 18px;
 }
 .contenido-iconos div h4 {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: normal;
     margin: 10px 0px;
 }
@@ -211,6 +212,13 @@ left: 0;
 #personas{
     flex-direction: column;
 }
-
+/*ICONOS*/
+.contenido-iconos{
+    flex-direction: column;
+    border: none;
+}
+.contenido-iconos div{
+    border: none;
+}
 }
 
