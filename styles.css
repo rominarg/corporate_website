@@ -136,6 +136,7 @@ left: 0;
     background: aquamarine;
     color:#fff;
 }
+
 /*ICONOS*/
 #iconos{
     padding: 0px 50px;
@@ -154,7 +155,6 @@ left: 0;
     margin: 20px 0px;
     border-right: 2px solid #fff;
 }
-
 #icono-mobile{
     border: none;
 }
@@ -163,16 +163,15 @@ left: 0;
     font-weight: normal;
     margin: 10px 0px;
 }
-
 .contenido-iconos div h6 {
     font-size: 15px;
     font-weight: normal;
 }
-
 .boton-iconos {
     text-align: center;
     padding-bottom: 50px;
 }
+
 /*RESPONSIVE*/
 @media (max-width: 768px) {
     /*HEADER*/
