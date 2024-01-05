@@ -59,7 +59,7 @@ header{
 #banner{
     padding: 0 50px;
     background-image: url(./img/banner.jpg);
-    height: 45vh;
+    height: 60vh;
     background-size: cover;
     background-position: center;
 }
@@ -245,12 +245,12 @@ form textarea::placeholder{
 }
 
 .footer_container{
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 .footer-row{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 .footer-links{
     width: 25%;
